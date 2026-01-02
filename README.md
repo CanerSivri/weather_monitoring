@@ -87,7 +87,7 @@ If you are using MinGW (Windows) or Linux:
 
 ```bash
 # Compile the source code
-g++ -o weather_simulation weather_simulation.cpp -std=c++11 -pthread
+g++ -std=c++11 -pthread weather_simulation.cpp -o weather_simulation  
 
 # Run the executable
 ./weather_simulation
